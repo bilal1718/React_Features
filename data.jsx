@@ -68,6 +68,8 @@ export default [
         img:img7,
         description:"Apple Watch Series 7 GPS, Aluminium Case, Starlight Sport",
         rating:2,
+        inCart:false,
+        quantity:0,
         price:350
     },
     {
