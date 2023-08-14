@@ -1,2 +1,2 @@
 # React_Features
-This is the React Features
+This is the React Features Application
