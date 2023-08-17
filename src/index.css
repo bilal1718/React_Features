@@ -1,0 +1,86 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+.starActive{
+    color: yellow;
+    cursor: pointer;
+}
+.star{
+    color: dimgray;
+    cursor: pointer;
+}
+.card-container {
+    position: fixed;
+    width: 30%;
+    top: 0;
+    right: 0px;
+    padding: 20px;
+  }
+  .btn-warning, .form-check{
+    margin-top: 15px;
+  }
+  .added-cards-container {
+    position: fixed;
+    top: 50px; /* Adjust the top value as needed */
+    right: 40%; /* Adjust the right value as needed */
+    width: 50%; /* Adjust the width as needed */
+    background-color: #f5f5f5;
+    border: 1px solid #ddd;
+    padding: 10px;
+    box-shadow: 10px 4px 8px rgba(0, 0, 0, 0.1);
+    overflow-y: auto; /* Enable vertical scrolling */
+  max-height: 90vh; /* Adjust the maximum height as needed */
+  }
+  
+  .added-card {
+    margin-bottom: 15px;
+    padding: 10px;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    display: flex;
+  }
+  
+  .added-card-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 80%; /* Adjust the image size as needed */
+    margin-right: 10px;
+  }
+  
+  .added-card-details {
+    flex: 1;
+    display: flex; 
+     flex-direction: column; 
+  }
+  
+  .added-card-title {
+    font-size: 18px;
+    margin: 0;
+  }
+  
+  .added-card-price {
+    font-size: 16px;
+    margin: 5px 0;
+  }
+  
+  .quantity-controls {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .quantity-btn {
+    background-color: #f5f5f5;
+    border: none;
+    padding: 5px 10px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .quantity {
+    margin: 0 10px;
+    font-size: 16px;
+  }
